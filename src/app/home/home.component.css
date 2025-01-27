@@ -1,0 +1,25 @@
+#top-level-container {
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+h2 {
+  text-align: center;
+}
+.pop-message {
+  margin-top: 40px;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+}
+.other {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+#frustrated-container {
+  display: flex;
+}
+#frustrated-woman {
+  margin: auto;
+}

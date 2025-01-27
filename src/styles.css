@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+.righteous-regular {
+  font-family: "Righteous", sans-serif;
+}
+/*
+body {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 5%,
+    rgba(6, 95, 170, 1) 25%,
+    rgba(0, 212, 255, 1) 40%,
+    rgba(0, 254, 255, 1) 48%,
+    rgba(0, 212, 255, 1) 55%,
+    rgba(6, 95, 170, 1) 75%,
+    rgba(0, 0, 0, 1) 95%
+  );
+}
+*/

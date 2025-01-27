@@ -1,0 +1,11 @@
+#big-container {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 254, 255, 1) 10%,
+    rgba(0, 212, 255, 1) 30%,
+    rgba(6, 95, 170, 1) 55%,
+    rgba(0, 0, 0, 1) 95%
+  );
+  width: 100%;
+  padding-bottom: 20px;
+}
