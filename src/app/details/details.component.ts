@@ -11,6 +11,7 @@ import { CommonModule, NgFor } from '@angular/common';
   styleUrl: './details.component.css',
 })
 export class DetailsComponent {
+  // TODO: Replace with real data
   cards: AdCard[] = [
     {
       title: 'No Stupid Questions',
