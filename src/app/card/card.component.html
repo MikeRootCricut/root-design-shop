@@ -1,10 +1,11 @@
 <div class="card">
-  <img class="card-img-top" src="../../assets/nerd.jpg" alt="Card image cap" />
+  <img class="card-img-top" [src]="imageUrl" alt="Card image cap" />
   <div class="card-body">
     <h5 class="card-title">{{ title }}</h5>
     <p class="card-text">
       {{ description }}
     </p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <hr />
+    <a href="#" class="btn btn-primary">Learn More <i class="bi bi-chevron-right text-white"></i></a>
   </div>
 </div>

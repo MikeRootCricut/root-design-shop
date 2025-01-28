@@ -1,4 +1,28 @@
 .card {
-  height: 400px;
+  min-height: 440px;
   margin-top: 20px;
+  position: relative;
+  box-shadow: 2px 2px 15px black;
+}
+
+a.btn-primary {
+  background-color: #0b5ed7;
+  border-color: #0b5ed7;
+}
+
+a.btn-primary:hover {
+  background-color: #0a58ca;
+  border-color: #0a58ca;
+}
+
+a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 2px 2px 3px black;
+}
+
+.card-img-top {
+  border-bottom: 1px solid black;
 }
