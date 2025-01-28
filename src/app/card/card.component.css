@@ -1,6 +1,6 @@
 .card {
-  min-height: 440px;
-  margin-top: 20px;
+  min-height: 460px;
+  margin-top: 40px;
   position: relative;
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -33,7 +33,6 @@ a.btn-primary {
 a.btn-primary:hover {
   background-color: #0a58ca;
   border-color: #0a58ca;
-  transform: scale(1.05);
 }
 
 a {

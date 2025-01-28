@@ -27,7 +27,7 @@ export class DetailsComponent {
     {
       title: 'Got an Idea for a New App?',
       description:
-        'Maybe all youve got is an idea, and you need someone to help you bring that idea to life.  We can help you identify how possible your idea is, how much time itd take to develope and what potential future competitors you might encounter.',
+        'Maybe all youve got is an idea, and you need someone to help you bring that idea to life.  We can help you identify how possible your idea is and how much time itd take to develope.',
       imageUrl: '../../assets/apps.jpg',
     },
     {
@@ -44,7 +44,7 @@ export class DetailsComponent {
     },
     {
       title: 'Need Help with a WordPress Site',
-      description: 'Do you have an existing WordPress site?  Or maybe you need help standing up a new Wordpress site, or maybe you just need help migrating a Wordpress site.  We have experiene with all of it and can guide you through the process.',
+      description: 'Do you have an existing WordPress site?  Or maybe you need help standing up a new Wordpress site, or maybe you just need help migrating a Wordpress site.',
       imageUrl: '../../assets/wordpress.jpg',
     },
     {
