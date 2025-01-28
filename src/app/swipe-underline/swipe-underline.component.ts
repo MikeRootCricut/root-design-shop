@@ -5,8 +5,9 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './swipe-underline.component.html',
-  styleUrl: './swipe-underline.component.css',
+  styleUrls: ['./swipe-underline.component.css'],
 })
 export class SwipeUnderlineComponent {
   @Input() width: number = 0;
+  @Input() fillColor: string = 'white';
 }
