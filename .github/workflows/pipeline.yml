@@ -43,6 +43,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        SONAR_PROJECT_KEY: root-design-shop_root-design-shop
-        SONAR_ORGANIZATION: root-design-shop
-  
+        SONAR_PROJECT_KEY: MikeRootCricut_root-design-shop
+        SONAR_ORGANIZATION: mikerootcricut-github
