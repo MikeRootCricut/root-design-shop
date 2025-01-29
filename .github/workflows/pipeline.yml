@@ -10,6 +10,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Required for SonarCloud analysis
 
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -43,5 +45,13 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        SONAR_PROJECT_KEY: MikeRootCricut_root-design-shop
-        SONAR_ORGANIZATION: mikerootcricut-github
+      with:
+        args: >
+          -Dsonar.projectKey=MikeRootCricut_root-design-shop
+          -Dsonar.organization=mikerootcricut-github
+          -Dsonar.sources=src
+          -Dsonar.tests=src
+          -Dsonar.test.inclusions=**/*.spec.ts
+          -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
+          -Dsonar.typescript.tsconfigPath=tsconfig.json
+          -Dsonar.exclusions=**/*.spec.ts,**/*.test.ts
